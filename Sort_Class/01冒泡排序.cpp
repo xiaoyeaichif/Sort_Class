@@ -38,7 +38,7 @@ void bubble_sort(vector<int>& nums)
 
 
 
-int main()
+int main01()
 {
 	vector<int>nums = { 10,1,2,3,5,1,0,5,4,0,50,3,0,40,6,0 };
 	cout << "ÅÅÐòÇ°:";
