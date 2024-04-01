@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="01冒泡排序.cpp" />
     <ClCompile Include="02选择排序.cpp" />
+    <ClCompile Include="03插入排序.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
