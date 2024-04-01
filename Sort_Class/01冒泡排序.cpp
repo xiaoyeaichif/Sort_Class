@@ -30,6 +30,7 @@ void bubble_sort(vector<int>& nums)
 			if (nums[j] > nums[j + 1])
 			{
 				swap(nums[j], nums[j + 1]);
+				//证明将元素顺序排好
 				flag = true;
 			}
 		}
