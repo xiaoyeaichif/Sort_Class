@@ -21,7 +21,7 @@ void insertionSort(std::vector<int>& arr) {
     }
 }
 
-int main() {
+int main03() {
     std::vector<int> arr = { 12, 11, 13, 5, 6 }; // 定义一个整数数组
     insertionSort(arr); // 调用插入排序函数对数组进行排序
     std::cout << "Sorted array: ";
