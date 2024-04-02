@@ -27,5 +27,8 @@
     <ClCompile Include="04快速排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="05归并排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
