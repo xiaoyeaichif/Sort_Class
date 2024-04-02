@@ -15,9 +15,11 @@ void merge(vector<int>& arr, int left, int mid, int right) {
     for (int i = 0; i < n1; i++)
         L[i] = arr[left + i];
     for (int j = 0; j < n2; j++)
+        //分段右边的第一个元素
         R[j] = arr[mid + 1 + j];
 
     // 合并临时数组到原数组
+    //合并两个有序数组的程序
     int i = 0, j = 0, k = left;
     while (i < n1 && j < n2) {
         if (L[i] <= R[j]) {
@@ -31,6 +33,8 @@ void merge(vector<int>& arr, int left, int mid, int right) {
         k++;
     }
 
+    //如果左右两侧的有序数组有一边提前退出了
+    // 这部分代码就是将退出的那部分加到原数组中去
     // 将剩余元素复制回原数组
     while (i < n1) {
         arr[k] = L[i];
