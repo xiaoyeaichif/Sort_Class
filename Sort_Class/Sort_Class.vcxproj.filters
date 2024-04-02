@@ -33,5 +33,14 @@
     <ClCompile Include="06归并排序2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="07堆排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="08基数排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="09希尔排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

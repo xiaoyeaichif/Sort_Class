@@ -62,7 +62,7 @@ void mergeSort(vector<int>& arr, int left, int right) {
     }
 }
 
-int main() {
+int main06() {
     vector<int> arr = { 12, 11, 13, 5, 6, 7 };
     int n = arr.size();
 
