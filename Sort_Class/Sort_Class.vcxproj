@@ -131,7 +131,8 @@
     <ClCompile Include="02选择排序.cpp" />
     <ClCompile Include="03插入排序.cpp" />
     <ClCompile Include="04快速排序.cpp" />
-    <ClCompile Include="05归并排序.cpp" />
+    <ClCompile Include="05归并排序01.cpp" />
+    <ClCompile Include="06归并排序2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

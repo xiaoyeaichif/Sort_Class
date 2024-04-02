@@ -34,7 +34,7 @@ void Quick_sort(std::vector<int>& arr, int low, int high)
     }
 }
 
-int main() {
+int main04() {
     // ´ıÅÅĞòµÄÊı×é
     std::vector<int> arr = { 12, 11, 13, 5, 6, 7 };
     int n = arr.size();
